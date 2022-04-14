@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/bold/comment</title>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-196.000000, -469.000000)" fill="#2A2A2A" id="post/with-title-two">
+            <g transform="translate(16.000000, 309.000000)">
+                <g id="stats/timer" transform="translate(106.000000, 158.000000)">
+                    <g id="comments" transform="translate(72.000000, 0.000000)">
+                        <g id="message-text" transform="translate(2.000000, 2.000000)">
+                            <path d="M6,0 C2,0 0,2 0,6 L0,19 C0,19.55 0.449999988,20 1,20 L14,20 C18,20 20,18 20,14 L20,6 C20,2 18,0 14,0 L6,0 Z M5,13.25 C4.59,13.25 4.25,12.91 4.25,12.5 C4.25,12.09 4.59,11.75 5,11.75 L12,11.75 C12.41,11.75 12.75,12.09 12.75,12.5 C12.75,12.91 12.41,13.25 12,13.25 L5,13.25 Z M5,8.25 C4.59,8.25 4.25,7.91 4.25,7.5 C4.25,7.09 4.59,6.75 5,6.75 L15,6.75 C15.41,6.75 15.75,7.09 15.75,7.5 C15.75,7.91 15.41,8.25 15,8.25 L5,8.25 Z" id="Vector"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
