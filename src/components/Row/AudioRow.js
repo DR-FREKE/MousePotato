@@ -48,7 +48,7 @@ const AudioRow = props => (
         </TopView>
         <BottomView {...props}>
           <View style={{marginBottom: !props.isPlaying ? 5 : 0}}>
-            <Text>{props.title}</Text>
+            <Text style={{fontFamily: 'OpenSans-Regular'}}>{props.title}</Text>
           </View>
           <PlayView {...props}>
             <TouchableWithoutFeedback onPress={() => props.onPlay(props.id)}>

@@ -2,11 +2,21 @@ import React, {useState, useEffect} from 'react';
 import {Layout, Text} from '@ui-kitten/components';
 import AppLayout from '../components/Layouts/app.layout';
 import {LogoIcon, PlayIcon} from '../components/Widgets/Icons';
-import {FlatList} from 'react-native';
+import {FlatList, Platform} from 'react-native';
 import {audio_data} from '../utils/data';
 import AudioRow from '../components/Row/AudioRow';
 import {FAB} from '../components/Widgets/fab';
 import {MicIcon} from '../components/Widgets/Icons';
+
+const TopNavTitle = () => (
+  <Text
+    style={{
+      fontFamily: 'OpenSans-Bold',
+      fontWeight: Platform.OS == 'android' ? 'bold' : '600',
+    }}>
+    Dwight's Feed
+  </Text>
+);
 
 const Home = ({navigation, ...props}) => {
   const [progress, setProgress] = useState(0);
@@ -50,7 +60,7 @@ const Home = ({navigation, ...props}) => {
     <>
       <AppLayout
         showTopBar
-        title="Dwight's Feed"
+        title={<TopNavTitle />}
         accessoryLeft={LogoIcon}
         accessoryRight={PlayIcon}>
         <Layout style={{paddingHorizontal: '5%'}}>

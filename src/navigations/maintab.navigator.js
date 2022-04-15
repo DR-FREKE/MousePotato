@@ -31,7 +31,7 @@ const ProfileScreen = () => (
 const BottomTabBar = ({navigation, state}) => (
   <BottomNavigation
     style={{height: '10%', paddingBottom: 20}}
-    indicatorStyle={{backgroundColor: '#FB4445'}}
+    indicatorStyle={{backgroundColor: 'transparent'}}
     selectedIndex={state.index}
     onSelect={index => navigation.navigate(state.routeNames[index])}>
     <BottomNavigationTab icon={HomeIcon} />

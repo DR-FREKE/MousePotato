@@ -6,6 +6,7 @@ export const AudioLayout = styled(Layout)`
   display: flex;
   flex-direction: row;
   margin: 10px 0;
+  font-family: OpenSans-Bold;
 `;
 
 export const ImageLayout = styled(Layout)`
@@ -34,11 +35,13 @@ export const TopView = styled(Layout)`
 export const NameText = styled(Text)`
   font-weight: ${Platform.OS == 'android' ? 'bold' : '600'};
   font-size: 16px;
+  font-family: OpenSans-Bold;
 `;
 
 export const UsernameText = styled(Text)`
   font-size: 12px;
   margin-top: 3px;
+  font-family: OpenSans-Regular;
 `;
 
 export const BottomView = styled(Layout)`
@@ -78,4 +81,5 @@ export const ActionText = styled(Text)`
   font-size: 13px;
   font-weight: 500;
   color: ${props => (props.isLiked ? 'orange' : '#000')};
+  font-family: OpenSans-Medium;
 `;
